@@ -28,6 +28,6 @@ aws dynamodb create-table --table-name facerecognition \
 ```
 
 - Create S3 bucket
-```a
-ws s3 mb s3://bucket-name --region us-east-1
+```
+aws s3 mb s3://bucket-name --region us-east-1
 ```
